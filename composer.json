@@ -1,0 +1,27 @@
+{
+  "name": "piotrpress/remoter",
+  "type": "library",
+  "license": "MIT",
+  "description": "This library is a chainable HTTP Client based on file_get_contents() function.",
+  "homepage": "https://github.com/PiotrPress/remoter",
+  "authors": [
+    {
+      "name": "Piotr Niewiadomski",
+      "homepage": "https://piotr.press"
+    }
+  ],
+  "keywords": [
+    "remoter", "file_get_contents", "http-client", "httpclient", "HTTP client", "http", "request", "response", "url", "header", "headers", "chain","chainable"
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "PiotrPress\\Remoter\\": "src/"
+    },
+    "classmap": [
+      "src"
+    ]
+  }
+}
